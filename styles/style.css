@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    color: #222222;
+    font-size: 42;
+}
