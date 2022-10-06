@@ -106,6 +106,10 @@ button:hover {
     margin-top: 80px;
 }
 
+#contact-me::after {
+    content: " 💬";
+  }
+
 #picture-profile-box {
     width: 40%;
     padding-right: 80px;
