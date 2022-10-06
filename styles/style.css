@@ -57,6 +57,7 @@ p {
 
 #slogan {
     padding-top: 8px;
+    padding-right: 44px;
     text-shadow: 0px 0px 10px rgb(0 0 0 / 20%)
 }
 
@@ -76,10 +77,6 @@ p {
     padding-left: 180px;
 }
 
-#hey-social {
-    width: 5%;
-}
-
 button {
     font-family: 'Poppins', sans-serif;
     font-size: var(--size-text-button);
@@ -92,18 +89,18 @@ button {
     padding-bottom: 14px;
     padding-left: 40px;
     padding-right: 40px;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
+    cursor: pointer;
 }
 
 button:hover {
     background-color: #0F5BA4;
     transform: scale(1.1) rotate(5deg);
-    transition-duration: 0.3s;
-    cursor: pointer;
+    transition-duration: 0.2s;
 }
 
 #contact-me {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 #contact-me::after {
@@ -112,7 +109,7 @@ button:hover {
 
 #picture-profile-box {
     width: 40%;
-    padding-right: 80px;
+    margin-top: -25px;
 }
 
 #picture-profile {
@@ -121,4 +118,24 @@ button:hover {
     -webkit-mask-size: contain;
     -webkit-mask-position: center center;
     -webkit-mask-repeat: no-repeat;
+}
+
+#hey-social {
+    width: 5%;
+    display: grid;
+    justify-content: center;
+}
+
+.social-icon {
+    color: var(--color-text);
+    cursor: pointer;
+    transition-duration: 0.2s;
+    text-decoration: none;
+    --icon-size: 42px;
+}
+
+.social-icon:hover {
+    color: #0F5BA4;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
 }
