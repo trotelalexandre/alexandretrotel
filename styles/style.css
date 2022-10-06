@@ -1,17 +1,98 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
+:root {
+    --color-primary: #222222;
+    --color-secondary: #54595F;
+    --color-text: #888888;
+    --color-accent: #379CFB;
+    --color-hover: #0F5BA4;
+    --size-text-primary: 42px;
+    --size-text-secondary: 18px;
+    --size-text: 15px;
+    --size-text-button: 14px;
+    --size-text-weight-primary: 600;
+    --size-text-weight-secondary: 400;
+    --size-text-weight: 400;
+    --size-text-weight-accent: 500;
+    --size-button: medium;
 }
 
 body {
     background-color: white;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text);
 }
 
 h1 {
-    font-family: Poppins;
-    font-weight: 600;
-    color: #222222;
-    font-size: 42;
+    font-weight: var(--size-text-weight-primary);
+    color: var(--color-primary);
+    font-size: var(--size-text-primary);
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-weight: var(--size-text-weight-secondary);
+    color: var(--color-secondary);
+    font-size: var(--size-text-weight-secondary);
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-weight: var(--size-text-weight);
+    color: var(--color-text);
+    font-size: var(--size-text);
+    margin: 0;
+}
+
+#slogan {
+    padding-top: 8px;
+}
+
+#hey {
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+
+#hey-box {
+    column-width: 55%;
+    padding-right: 40px;
+    padding-left: 180px;
+}
+
+#hey-social {
+    column-width: 5%;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--size-text-button);
+    font-weight: var(--size-text-weight-accent);
+    border-radius: 6px;
+    border-style: none;
+    background-color: var(--color-accent);
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: #0F5BA4;
+    transform: scale(1.1) rotate(10deg);
+    transition-duration: 0.3s;
+}
+
+#contact-me {
+    margin-top: 40px;
+}
+
+#picture-profile-box {
+    column-width: 40%;
+}
+
+#picture-profile {
+    width: 280px;
+    mask: url(/img/mask_picture_profile.svg);
 }
