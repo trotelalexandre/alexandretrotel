@@ -97,11 +97,3 @@ button:hover {
     transform: scale(1.1) rotate(5deg);
     transition-duration: 0.2s;
 }
-
-#contact-me {
-    margin-top: 40px;
-}
-
-#contact-me::after {
-    content: " 💬";
-  }
