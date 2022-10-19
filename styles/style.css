@@ -55,11 +55,6 @@ p {
     margin: 0;
 }
 
-#slogan {
-    padding-top: 8px;
-    padding-right: 44px;
-}
-
 #hey {
     padding-top: 130px;
     padding-bottom: 60px;
@@ -96,4 +91,24 @@ button:hover {
     background-color: #0F5BA4;
     transform: scale(1.1) rotate(5deg);
     transition-duration: 0.2s;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: var(--color-primary);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.primary-menu {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style-type: none;
 }
