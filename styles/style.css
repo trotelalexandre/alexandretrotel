@@ -55,17 +55,19 @@ p {
     margin: 0;
 }
 
-#hey {
+.top-container {
+    width: 100%;
+    display: flex;
     padding-top: 130px;
-    padding-bottom: 60px;
+    width: 55%;
+    padding-right: 40px;
+    padding-left: 180px;
 }
 
 .container {
     width: 100%;
     display: flex;
-}
-
-#hey-box {
+    padding-top: 20px;
     width: 55%;
     padding-right: 40px;
     padding-left: 180px;
@@ -98,7 +100,7 @@ button:hover {
     color: var(--color-primary);
     transition-duration: 0.2s;
     cursor: pointer;
-    font-variation-settings: 'wght' 300, 'wdth' 300;
+    font-variation-settings: 'wght' 400, 'wdth' 400;
     font-size: 28px;
     margin-left: -40px;
 }
