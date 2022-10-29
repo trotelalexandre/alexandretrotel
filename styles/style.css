@@ -15,16 +15,16 @@ html {
     --size-text-secondary: 18px;
     --size-text: 15px;
     --size-text-button: 14px;
-    --size-text-weight-primary: 600;
-    --size-text-weight-secondary: 400;
-    --size-text-weight: 400;
-    --size-text-weight-accent: 500;
+    --size-text-weight-primary: 800;
+    --size-text-weight-secondary: 600;
+    --size-text-weight: 600;
+    --size-text-weight-accent: 700;
     --size-button: medium;
 }
 
 body {
     background-color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Manrope', sans-serif;
     color: var(--color-text);
     margin:0;
     padding:0;
@@ -72,7 +72,7 @@ p {
 }
 
 button {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: var(--size-text-button);
     font-weight: var(--size-text-weight-accent);
     border-radius: 6px;
@@ -98,15 +98,17 @@ button:hover {
     color: var(--color-primary);
     transition-duration: 0.2s;
     cursor: pointer;
+    font-variation-settings: 'wght' 300, 'wdth' 300;
+    font-size: 28px;
+    margin-left: -40px;
 }
 
 .menu-item:hover {
-    transform: scale(1.1);
-    transition-duration: 0.2s;
+    font-variation-settings: 'wght' 800, 'wdth' 800;
 }
 
 .primary-menu {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 ul {
